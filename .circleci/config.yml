@@ -5,5 +5,5 @@ orbs:
 
 workflows:
   maven_test:
-    jobs:
+    run:
       - mvn test
